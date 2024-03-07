@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 21, 2024 at 05:47 AM
+-- Generation Time: Mar 07, 2024 at 05:59 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.1.25
 
@@ -137,7 +137,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `first_name`, `last_name`, `gender`, `birthday`, `email`, `password`, `age`, `village`, `district`, `province`, `u_phone`, `f_name`, `f_phone`, `m_name`, `m_phone`, `mobile_phone`, `income`, `in_reason`, `expenditure`, `ex_reason`, `role`, `timestamp`) VALUES
-(26, NULL, NULL, NULL, NULL, 'kangserpobtsuasvaaj@gmail.com', 'e6ec13b23cfbb81e8e953f08b746b640', NULL, NULL, NULL, NULL, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, 4, '2024-01-22 23:17:16'),
+(26, NULL, NULL, NULL, NULL, 'kangserpobtsuasvaaj@gmail.com', '25f9e794323b453885f5181f1b624d0b', NULL, NULL, NULL, NULL, '', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, 4, '2024-01-22 23:17:16'),
 (29, 'ສົມສີ', 'ສົມລີ', 'ຊາຍ', '2024-01-02', 'somsy@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 30, 'ດົງໂດກ', 'ໄຊທານີ', 'ນະຄອນຫຼວງວຽງຈັນ', '0207654892', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, 3, '2024-01-22 23:17:16'),
 (30, 'ສົມຫວັງ', 'ສົມລີ', 'ຊາຍ', '2024-01-01', 'somvang@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 25, 'ດົງໂດກ', 'ໄຊທານີ', 'ນະຄອນຫຼວງວຽງຈັນ', '0207654892', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, 3, '2024-01-22 23:17:16'),
 (31, 'ບຸນມີ', 'ສົມສີ', 'ຊາຍ', '2024-01-15', 'bounmy@gmail.com', '41525af98cffe913d396c83bdd493181', 28, 'ດົງໂດກ', 'ໄຊທານີ', 'ນະຄອນຫຼວງວຽງຈັນ', '02076523892', NULL, NULL, '', NULL, NULL, NULL, NULL, NULL, NULL, 3, '2024-01-22 23:17:16'),
@@ -150,7 +150,9 @@ INSERT INTO `user` (`id`, `first_name`, `last_name`, `gender`, `birthday`, `emai
 (40, 'tester', 'tester', 'ອື່ນໆ', '2024-02-07', 'tester@gamilc.omt', '01013e5a1aa842c1cefe0953920a3ae6', 22, 'tester', 'tester', 'ອັດຕະປື', 'tester', 'tester', 'tester', 'tester', 'tester', 'tester', 2100000, 'ຈ່າຍແລ້ວ', NULL, NULL, 1, '2024-02-13 18:14:04'),
 (41, NULL, NULL, NULL, NULL, '', '', NULL, NULL, NULL, NULL, '', NULL, NULL, '', NULL, NULL, NULL, NULL, 2500000, 'ຊື້ອຸປະກອນໃນຫ້ອງຮຽນ', 1, '2024-02-13 18:15:48'),
 (42, 'tester', 'tester', 'ອື່ນໆ', '2001-12-05', 'tester@gamilc.omt', '8eb9085df3582fdf7db3050bb5eefca5', 22, 'ດົງໂດກ', 'ໄຊທານີ', 'ນະຄອນຫຼວງວຽງຈັນ', '02076589225', 'ກ່າງເສີ', '0304491740', 'teset', 'twes', '0304491740', 2500000, 'ຈ່າຍແລ້ວ', NULL, NULL, 1, '2024-02-18 22:36:32'),
-(43, 'tester', 'ACADEMIA', 'ຊາຍ', '2001-12-05', 'english.academia30@gmail.com', '63ea78f508574fa7393f67268ef9275f', 25, 'ດົງໂດກ', 'ໄຊທານີ', 'ບໍ່ແກ້ວ', '02076589225', 'tester', 'tester', 'tester', 'twes', '0304491740', 2100000, 'ຈ່າຍແລ້ວ', NULL, NULL, 1, '2024-02-20 19:19:47');
+(43, 'tester', 'ACADEMIA', 'ຊາຍ', '2001-12-05', 'english.academia30@gmail.com', '63ea78f508574fa7393f67268ef9275f', 25, 'ດົງໂດກ', 'ໄຊທານີ', 'ບໍ່ແກ້ວ', '02076589225', 'tester', 'tester', 'tester', 'twes', '0304491740', 2100000, 'ຈ່າຍແລ້ວ', NULL, NULL, 1, '2024-02-20 19:19:47'),
+(44, NULL, NULL, NULL, NULL, '', '', NULL, NULL, NULL, NULL, '', NULL, NULL, '', NULL, NULL, NULL, NULL, 52000, 'sfsdfas', 1, '2024-02-20 21:40:44'),
+(46, NULL, NULL, NULL, NULL, '', '', NULL, NULL, NULL, NULL, '', NULL, NULL, '', NULL, NULL, NULL, NULL, 20000, 'ຄ່າອາຫານ', 1, '2024-03-04 18:16:05');
 
 --
 -- Indexes for dumped tables
@@ -206,7 +208,7 @@ ALTER TABLE `subject`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
